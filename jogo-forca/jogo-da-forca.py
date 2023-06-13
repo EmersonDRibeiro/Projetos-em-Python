@@ -46,3 +46,14 @@ def jogar_forca():
 
 if __name__ == "__main__":
     jogar_forca()
+    
+   # A função `jogar_forca` implementa a lógica do jogo. A lista `palavras`
+   # contém uma seleção de palavras possíveis para o jogo.
+   # Uma palavra secreta é escolhida usando `random.choice(palavras)`
+
+   # O jogo começa com um loop principal que continua até que o jogador vença ou perca.
+   # Dentro do loop, a palavra secreta é exibida como "_".
+   # O jogador digita uma letra como palpite, e o programa verifica se está certo ou errado.
+    
+   # O jogo mantém uma lista de letras corretas e letras erradas (`letras_correta`) e (`letras_erradas`).
+   # e também o número de tentativas restantes (`tentativas`).
